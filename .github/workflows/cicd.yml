@@ -7,8 +7,8 @@ on:
 env:
   PROJECT_NAME: ticket-auction
   BUCKET_NAME: ticket-auction-deploy
-  CODE_DEPLOY_APP_NAME: ticket-auction-deploy-app
-  DEPLOYMENT_GROUP_NAME: ticket-auction-deploy-single
+  CODE_DEPLOY_APP_NAME: ticket-auction-app-test
+  DEPLOYMENT_GROUP_NAME: test-blue-green-deploy-group
 
 jobs:
   build-docker:
